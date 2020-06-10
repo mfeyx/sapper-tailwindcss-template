@@ -1,24 +1,13 @@
 <script>
 	import Tailwindcss from '../components/Tailwindcss.svelte';
-	import Nav from '../components/Nav.svelte';
+	import Nav2 from '../components/Nav2.svelte';
 
 	export let segment;
 </script>
 
-<style>
-	main {
-		position: relative;
-		max-width: 56em;
-		background-color: white;
-		padding: 2em;
-		margin: 0 auto;
-		box-sizing: border-box;
-	}
-</style>
-
 <Tailwindcss />
 
-<Nav {segment}/>
+<Nav2 {segment}/>
 
 <main>
 	<slot></slot>
